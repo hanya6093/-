@@ -1,0 +1,5 @@
+#request false:现场控制 true:远端控制
+bool mode
+---
+#response
+bool result

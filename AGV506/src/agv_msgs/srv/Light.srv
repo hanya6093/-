@@ -1,0 +1,5 @@
+#request 
+bool light
+---
+#response
+bool result

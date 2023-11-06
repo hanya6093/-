@@ -1,0 +1,5 @@
+#request 第0位:上升 第1位:下降 暂停:00
+uint8 arm
+---
+#response
+bool result

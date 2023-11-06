@@ -1,0 +1,23 @@
+
+(cl:in-package :asdf)
+
+(defsystem "agv_msgs-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils )
+  :components ((:file "_package")
+    (:file "accelerator" :depends-on ("_package_accelerator"))
+    (:file "_package_accelerator" :depends-on ("_package"))
+    (:file "actionlimit" :depends-on ("_package_actionlimit"))
+    (:file "_package_actionlimit" :depends-on ("_package"))
+    (:file "direction" :depends-on ("_package_direction"))
+    (:file "_package_direction" :depends-on ("_package"))
+    (:file "gearbrake" :depends-on ("_package_gearbrake"))
+    (:file "_package_gearbrake" :depends-on ("_package"))
+    (:file "lightbuzzer" :depends-on ("_package_lightbuzzer"))
+    (:file "_package_lightbuzzer" :depends-on ("_package"))
+    (:file "p_dmode" :depends-on ("_package_p_dmode"))
+    (:file "_package_p_dmode" :depends-on ("_package"))
+    (:file "steerangle" :depends-on ("_package_steerangle"))
+    (:file "_package_steerangle" :depends-on ("_package"))
+    (:file "ultrasonicRadar" :depends-on ("_package_ultrasonicRadar"))
+    (:file "_package_ultrasonicRadar" :depends-on ("_package"))
+  ))

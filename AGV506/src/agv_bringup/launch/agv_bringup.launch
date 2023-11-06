@@ -1,0 +1,33 @@
+<!--
+    底层驱动
+    1、与操控平台的数据通信：Tcp/IP数据包的解析和打包发送
+    2、与下位机的数据通信：CAN数据的解析和打包发送
+    3、IMU数据处理：过滤和融合
+    4、发布静态坐标系
+    5、发布里程计数据
+    6、可能涉及的算法
+-->
+<launch>
+    <!-- 1、与操控平台的数据通信：Tcp/IP数据包的解析和打包发送 -->
+    <!-- operating platform node -->
+    <include file="$(find agv_bringup)/launch/agv_ctrl.launch"/>
+    <!-- 2、与下位机的数据通信：CAN数据的解析和打包发送 -->
+    <include file="$(find agv_bringup)/launch/agv_driver.launch"/>
+    <!-- 3、IMU数据处理：过滤和融合 -->
+    <include file="$(find agv_bringup)/launch/agv_imu.launch"/>
+    <!-- 4、发布静态坐标系 -->
+    <node pkg="tf" type="static_transform_publisher" name="base_link_to_imu_link"
+          args="0.0 0 0.02 0 0 0  /base_link /imu_link  100"/>
+    <!-- 5、发布里程计数据 -->
+    <node pkg="transbot_bringup" name="base_node" type="base_node">
+        <param name="linear_scale" type="double" value="1.2"/>
+        <param name="is_namespace" type="string" value=""/>
+        <param name="is_multi_robot"  type="bool" value="false"/>
+    </node>
+    <!-- 6、可能涉及的算法 -->
+        <!-- 扩展卡尔曼数据融合 -->
+    <node pkg="robot_localization" type="ekf_localization_node" name="ekf_localization">
+        <remap from="odometry/filtered" to="/odom"/>
+        <rosparam command="load" file="$(find transbot_bringup)/param/ekf/robot_localization.yaml"/>
+    </node>
+</launch>

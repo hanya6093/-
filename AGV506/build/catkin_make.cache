@@ -1,0 +1,2 @@
+agv_bringup:agv_msgs
+-DCATKIN_DEVEL_PREFIX=/home/agv506/AGV506/devel -DCMAKE_INSTALL_PREFIX=/home/agv506/AGV506/install -G Unix Makefiles
