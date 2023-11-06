@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/agv506/AGV506/src/agv_bringup/include/agv_bringup/agv_joy.h
+/home/agv506/清仓小车/AGV506/src/agv_bringup/include/agv_bringup/agv_joy.h
 ros/ros.h
-/home/agv506/AGV506/src/agv_bringup/include/agv_bringup/ros/ros.h
+/home/agv506/清仓小车/AGV506/src/agv_bringup/include/agv_bringup/ros/ros.h
 sys/socket.h
 -
 netinet/in.h
@@ -28,9 +28,9 @@ linux/if_ether.h
 cstring
 -
 
-/home/agv506/AGV506/src/agv_bringup/src/joy.cpp
+/home/agv506/清仓小车/AGV506/src/agv_bringup/src/joy.cpp
 agv_bringup/agv_joy.h
-/home/agv506/AGV506/src/agv_bringup/src/agv_bringup/agv_joy.h
+/home/agv506/清仓小车/AGV506/src/agv_bringup/src/agv_bringup/agv_joy.h
 
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h

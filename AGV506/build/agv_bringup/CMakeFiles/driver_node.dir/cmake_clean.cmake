@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/driver_node.dir/src/agv_driver.cpp.o"
-  "/home/agv506/AGV506/devel/lib/agv_bringup/driver_node.pdb"
-  "/home/agv506/AGV506/devel/lib/agv_bringup/driver_node"
+  "/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/driver_node.pdb"
+  "/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/driver_node"
 )
 
 # Per-language clean rules from dependency scanning.

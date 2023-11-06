@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/agv506/AGV506/devel:$CMAKE_PREFIX_PATH"
-export PWD='/home/agv506/AGV506/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/agv506/AGV506/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/agv506/AGV506/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/agv506/清仓小车/AGV506/devel:$CMAKE_PREFIX_PATH"
+export PWD='/home/agv506/清仓小车/AGV506/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/agv506/清仓小车/AGV506/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/agv506/清仓小车/AGV506/src:$ROS_PACKAGE_PATH"

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/agv_can.dir/src/can.cpp.o"
-  "/home/agv506/AGV506/devel/lib/libagv_can.pdb"
-  "/home/agv506/AGV506/devel/lib/libagv_can.so"
+  "/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.pdb"
+  "/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so"
 )
 
 # Per-language clean rules from dependency scanning.

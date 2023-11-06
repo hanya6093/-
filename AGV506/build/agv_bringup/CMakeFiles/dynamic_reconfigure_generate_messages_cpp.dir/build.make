@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/agv506/AGV506/src
+CMAKE_SOURCE_DIR = /home/agv506/清仓小车/AGV506/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/agv506/AGV506/build
+CMAKE_BINARY_DIR = /home/agv506/清仓小车/AGV506/build
 
 # Utility rule file for dynamic_reconfigure_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ agv_bringup/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build: dyna
 .PHONY : agv_bringup/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
 
 agv_bringup/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean:
-	cd /home/agv506/AGV506/build/agv_bringup && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/agv506/清仓小车/AGV506/build/agv_bringup && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : agv_bringup/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean
 
 agv_bringup/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/depend:
-	cd /home/agv506/AGV506/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agv506/AGV506/src /home/agv506/AGV506/src/agv_bringup /home/agv506/AGV506/build /home/agv506/AGV506/build/agv_bringup /home/agv506/AGV506/build/agv_bringup/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/agv506/清仓小车/AGV506/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agv506/清仓小车/AGV506/src /home/agv506/清仓小车/AGV506/src/agv_bringup /home/agv506/清仓小车/AGV506/build /home/agv506/清仓小车/AGV506/build/agv_bringup /home/agv506/清仓小车/AGV506/build/agv_bringup/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : agv_bringup/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/depend
 

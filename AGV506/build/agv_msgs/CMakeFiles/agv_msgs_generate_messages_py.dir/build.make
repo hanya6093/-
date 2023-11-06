@@ -43,157 +43,157 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/agv506/AGV506/src
+CMAKE_SOURCE_DIR = /home/agv506/清仓小车/AGV506/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/agv506/AGV506/build
+CMAKE_BINARY_DIR = /home/agv506/清仓小车/AGV506/build
 
 # Utility rule file for agv_msgs_generate_messages_py.
 
 # Include the progress variables for this target.
 include agv_msgs/CMakeFiles/agv_msgs_generate_messages_py.dir/progress.make
 
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_direction.py
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_ultrasonicRadar.py
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_steerangle.py
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_lightbuzzer.py
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_p_dmode.py
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_actionlimit.py
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_accelerator.py
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_gearbrake.py
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Light.py
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Gear.py
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Brake.py
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Arm.py
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Fight.py
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Dmode.py
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_steerangle.py
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_lightbuzzer.py
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_gearbrake.py
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_p_dmode.py
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_actionlimit.py
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_ultrasonicRadar.py
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_accelerator.py
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_direction.py
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Brake.py
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Arm.py
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Dmode.py
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Light.py
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Gear.py
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Fight.py
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py
 
 
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_direction.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_direction.py: /home/agv506/AGV506/src/agv_msgs/msg/direction.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG agv_msgs/direction"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/agv506/AGV506/src/agv_msgs/msg/direction.msg -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_steerangle.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_steerangle.py: /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/steerangle.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG agv_msgs/steerangle"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/steerangle.msg -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg
 
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_ultrasonicRadar.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_ultrasonicRadar.py: /home/agv506/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG agv_msgs/ultrasonicRadar"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/agv506/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_lightbuzzer.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_lightbuzzer.py: /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/lightbuzzer.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG agv_msgs/lightbuzzer"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/lightbuzzer.msg -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg
 
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_steerangle.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_steerangle.py: /home/agv506/AGV506/src/agv_msgs/msg/steerangle.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG agv_msgs/steerangle"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/agv506/AGV506/src/agv_msgs/msg/steerangle.msg -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_gearbrake.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_gearbrake.py: /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/gearbrake.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG agv_msgs/gearbrake"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/gearbrake.msg -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg
 
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_lightbuzzer.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_lightbuzzer.py: /home/agv506/AGV506/src/agv_msgs/msg/lightbuzzer.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG agv_msgs/lightbuzzer"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/agv506/AGV506/src/agv_msgs/msg/lightbuzzer.msg -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_p_dmode.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_p_dmode.py: /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/p_dmode.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG agv_msgs/p_dmode"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/p_dmode.msg -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg
 
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_p_dmode.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_p_dmode.py: /home/agv506/AGV506/src/agv_msgs/msg/p_dmode.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python from MSG agv_msgs/p_dmode"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/agv506/AGV506/src/agv_msgs/msg/p_dmode.msg -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_actionlimit.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_actionlimit.py: /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/actionlimit.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python from MSG agv_msgs/actionlimit"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/actionlimit.msg -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg
 
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_actionlimit.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_actionlimit.py: /home/agv506/AGV506/src/agv_msgs/msg/actionlimit.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python from MSG agv_msgs/actionlimit"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/agv506/AGV506/src/agv_msgs/msg/actionlimit.msg -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_ultrasonicRadar.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_ultrasonicRadar.py: /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python from MSG agv_msgs/ultrasonicRadar"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg
 
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_accelerator.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_accelerator.py: /home/agv506/AGV506/src/agv_msgs/msg/accelerator.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python from MSG agv_msgs/accelerator"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/agv506/AGV506/src/agv_msgs/msg/accelerator.msg -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_accelerator.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_accelerator.py: /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/accelerator.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python from MSG agv_msgs/accelerator"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/accelerator.msg -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg
 
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_gearbrake.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_gearbrake.py: /home/agv506/AGV506/src/agv_msgs/msg/gearbrake.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python from MSG agv_msgs/gearbrake"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/agv506/AGV506/src/agv_msgs/msg/gearbrake.msg -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_direction.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_direction.py: /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/direction.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python from MSG agv_msgs/direction"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/direction.msg -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg
 
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Light.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Light.py: /home/agv506/AGV506/src/agv_msgs/srv/Light.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Python code from SRV agv_msgs/Light"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/agv506/AGV506/src/agv_msgs/srv/Light.srv -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Brake.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Brake.py: /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Brake.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Python code from SRV agv_msgs/Brake"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Brake.srv -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv
 
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Gear.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Gear.py: /home/agv506/AGV506/src/agv_msgs/srv/Gear.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Python code from SRV agv_msgs/Gear"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/agv506/AGV506/src/agv_msgs/srv/Gear.srv -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Arm.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Arm.py: /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Arm.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Python code from SRV agv_msgs/Arm"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Arm.srv -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv
 
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Brake.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Brake.py: /home/agv506/AGV506/src/agv_msgs/srv/Brake.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Python code from SRV agv_msgs/Brake"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/agv506/AGV506/src/agv_msgs/srv/Brake.srv -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Dmode.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Dmode.py: /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Dmode.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Python code from SRV agv_msgs/Dmode"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Dmode.srv -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv
 
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Arm.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Arm.py: /home/agv506/AGV506/src/agv_msgs/srv/Arm.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Python code from SRV agv_msgs/Arm"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/agv506/AGV506/src/agv_msgs/srv/Arm.srv -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Light.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Light.py: /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Light.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Python code from SRV agv_msgs/Light"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Light.srv -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv
 
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Fight.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Fight.py: /home/agv506/AGV506/src/agv_msgs/srv/Fight.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Python code from SRV agv_msgs/Fight"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/agv506/AGV506/src/agv_msgs/srv/Fight.srv -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Gear.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Gear.py: /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Gear.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Python code from SRV agv_msgs/Gear"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Gear.srv -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv
 
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Dmode.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Dmode.py: /home/agv506/AGV506/src/agv_msgs/srv/Dmode.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Python code from SRV agv_msgs/Dmode"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/agv506/AGV506/src/agv_msgs/srv/Dmode.srv -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Fight.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Fight.py: /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Fight.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Python code from SRV agv_msgs/Fight"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Fight.srv -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv
 
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_direction.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_ultrasonicRadar.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_steerangle.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_lightbuzzer.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_p_dmode.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_actionlimit.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_accelerator.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_gearbrake.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Light.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Gear.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Brake.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Arm.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Fight.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Dmode.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Python msg __init__.py for agv_msgs"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg --initpy
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_steerangle.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_lightbuzzer.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_gearbrake.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_p_dmode.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_actionlimit.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_ultrasonicRadar.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_accelerator.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_direction.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Brake.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Arm.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Dmode.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Light.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Gear.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Fight.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Python msg __init__.py for agv_msgs"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg --initpy
 
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_direction.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_ultrasonicRadar.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_steerangle.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_lightbuzzer.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_p_dmode.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_actionlimit.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_accelerator.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_gearbrake.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Light.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Gear.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Brake.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Arm.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Fight.py
-/home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Dmode.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Python srv __init__.py for agv_msgs"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv --initpy
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_steerangle.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_lightbuzzer.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_gearbrake.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_p_dmode.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_actionlimit.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_ultrasonicRadar.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_accelerator.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_direction.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Brake.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Arm.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Dmode.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Light.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Gear.py
+/home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Fight.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Python srv __init__.py for agv_msgs"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv --initpy
 
 agv_msgs_generate_messages_py: agv_msgs/CMakeFiles/agv_msgs_generate_messages_py
-agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_direction.py
-agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_ultrasonicRadar.py
-agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_steerangle.py
-agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_lightbuzzer.py
-agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_p_dmode.py
-agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_actionlimit.py
-agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_accelerator.py
-agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_gearbrake.py
-agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Light.py
-agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Gear.py
-agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Brake.py
-agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Arm.py
-agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Fight.py
-agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Dmode.py
-agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py
-agv_msgs_generate_messages_py: /home/agv506/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py
+agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_steerangle.py
+agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_lightbuzzer.py
+agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_gearbrake.py
+agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_p_dmode.py
+agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_actionlimit.py
+agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_ultrasonicRadar.py
+agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_accelerator.py
+agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/_direction.py
+agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Brake.py
+agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Arm.py
+agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Dmode.py
+agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Light.py
+agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Gear.py
+agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/_Fight.py
+agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/msg/__init__.py
+agv_msgs_generate_messages_py: /home/agv506/清仓小车/AGV506/devel/lib/python2.7/dist-packages/agv_msgs/srv/__init__.py
 agv_msgs_generate_messages_py: agv_msgs/CMakeFiles/agv_msgs_generate_messages_py.dir/build.make
 
 .PHONY : agv_msgs_generate_messages_py
@@ -204,10 +204,10 @@ agv_msgs/CMakeFiles/agv_msgs_generate_messages_py.dir/build: agv_msgs_generate_m
 .PHONY : agv_msgs/CMakeFiles/agv_msgs_generate_messages_py.dir/build
 
 agv_msgs/CMakeFiles/agv_msgs_generate_messages_py.dir/clean:
-	cd /home/agv506/AGV506/build/agv_msgs && $(CMAKE_COMMAND) -P CMakeFiles/agv_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && $(CMAKE_COMMAND) -P CMakeFiles/agv_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : agv_msgs/CMakeFiles/agv_msgs_generate_messages_py.dir/clean
 
 agv_msgs/CMakeFiles/agv_msgs_generate_messages_py.dir/depend:
-	cd /home/agv506/AGV506/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agv506/AGV506/src /home/agv506/AGV506/src/agv_msgs /home/agv506/AGV506/build /home/agv506/AGV506/build/agv_msgs /home/agv506/AGV506/build/agv_msgs/CMakeFiles/agv_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/agv506/清仓小车/AGV506/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agv506/清仓小车/AGV506/src /home/agv506/清仓小车/AGV506/src/agv_msgs /home/agv506/清仓小车/AGV506/build /home/agv506/清仓小车/AGV506/build/agv_msgs /home/agv506/清仓小车/AGV506/build/agv_msgs/CMakeFiles/agv_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : agv_msgs/CMakeFiles/agv_msgs_generate_messages_py.dir/depend
 

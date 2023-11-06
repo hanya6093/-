@@ -67,14 +67,14 @@ set(agv_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(agv_msgs_SOURCE_PREFIX /home/agv506/AGV506/src/agv_msgs)
-  set(agv_msgs_DEVEL_PREFIX /home/agv506/AGV506/devel)
+  set(agv_msgs_SOURCE_PREFIX /home/agv506/清仓小车/AGV506/src/agv_msgs)
+  set(agv_msgs_DEVEL_PREFIX /home/agv506/清仓小车/AGV506/devel)
   set(agv_msgs_INSTALL_PREFIX "")
   set(agv_msgs_PREFIX ${agv_msgs_DEVEL_PREFIX})
 else()
   set(agv_msgs_SOURCE_PREFIX "")
   set(agv_msgs_DEVEL_PREFIX "")
-  set(agv_msgs_INSTALL_PREFIX /home/agv506/AGV506/install)
+  set(agv_msgs_INSTALL_PREFIX /home/agv506/清仓小车/AGV506/install)
   set(agv_msgs_PREFIX ${agv_msgs_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/agv506/AGV506/install/lib;/opt/ros/melodic/lib)
+    foreach(path /home/agv506/清仓小车/AGV506/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

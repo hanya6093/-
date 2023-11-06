@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/agv506/AGV506/src
+CMAKE_SOURCE_DIR = /home/agv506/清仓小车/AGV506/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/agv506/AGV506/build
+CMAKE_BINARY_DIR = /home/agv506/清仓小车/AGV506/build
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/agv506/AGV506/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agv506/AGV506/src /home/agv506/AGV506/src /home/agv506/AGV506/build /home/agv506/AGV506/build /home/agv506/AGV506/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/agv506/清仓小车/AGV506/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agv506/清仓小车/AGV506/src /home/agv506/清仓小车/AGV506/src /home/agv506/清仓小车/AGV506/build /home/agv506/清仓小车/AGV506/build /home/agv506/清仓小车/AGV506/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

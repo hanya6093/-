@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/agv506/AGV506/src/agv_bringup/src/agv_joy.cpp" "/home/agv506/AGV506/build/agv_bringup/CMakeFiles/agv_joy.dir/src/agv_joy.cpp.o"
+  "/home/agv506/清仓小车/AGV506/src/agv_bringup/src/agv_joy.cpp" "/home/agv506/清仓小车/AGV506/build/agv_bringup/CMakeFiles/agv_joy.dir/src/agv_joy.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,8 +17,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/agv506/AGV506/src/agv_bringup/include"
-  "/home/agv506/AGV506/devel/include"
+  "/home/agv506/清仓小车/AGV506/src/agv_bringup/include"
+  "/home/agv506/清仓小车/AGV506/devel/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

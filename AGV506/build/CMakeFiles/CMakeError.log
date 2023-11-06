@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/agv506/AGV506/build/CMakeFiles/CMakeTmp
+Change Dir: /home/agv506/清仓小车/AGV506/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d075f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d075f.dir/build.make CMakeFiles/cmTC_d075f.dir/build
-make[1]: 进入目录“/home/agv506/AGV506/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_d075f.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_d075f.dir/CheckSymbolExists.c.o   -c /home/agv506/AGV506/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_d075f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d075f.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d075f.dir/CheckSymbolExists.c.o  -o cmTC_d075f 
-CMakeFiles/cmTC_d075f.dir/CheckSymbolExists.c.o：在函数‘main’中：
+Run Build Command:"/usr/bin/make" "cmTC_81a4e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_81a4e.dir/build.make CMakeFiles/cmTC_81a4e.dir/build
+make[1]: 进入目录“/home/agv506/清仓小车/AGV506/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_81a4e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_81a4e.dir/CheckSymbolExists.c.o   -c /home/agv506/清仓小车/AGV506/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_81a4e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81a4e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_81a4e.dir/CheckSymbolExists.c.o  -o cmTC_81a4e 
+CMakeFiles/cmTC_81a4e.dir/CheckSymbolExists.c.o：在函数‘main’中：
 CheckSymbolExists.c:(.text+0x1b)：对‘pthread_create’未定义的引用
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_d075f.dir/build.make:97: recipe for target 'cmTC_d075f' failed
-make[1]: *** [cmTC_d075f] Error 1
-make[1]: 离开目录“/home/agv506/AGV506/build/CMakeFiles/CMakeTmp”
-Makefile:126: recipe for target 'cmTC_d075f/fast' failed
-make: *** [cmTC_d075f/fast] Error 2
+CMakeFiles/cmTC_81a4e.dir/build.make:97: recipe for target 'cmTC_81a4e' failed
+make[1]: *** [cmTC_81a4e] Error 1
+make[1]: 离开目录“/home/agv506/清仓小车/AGV506/build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_81a4e/fast' failed
+make: *** [cmTC_81a4e/fast] Error 2
 
-File /home/agv506/AGV506/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/agv506/清仓小车/AGV506/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/agv506/AGV506/build/CMakeFiles/CMakeTmp
+Change Dir: /home/agv506/清仓小车/AGV506/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9b09b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9b09b.dir/build.make CMakeFiles/cmTC_9b09b.dir/build
-make[1]: 进入目录“/home/agv506/AGV506/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_9b09b.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_9b09b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_9b09b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b09b.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_9b09b.dir/CheckFunctionExists.c.o  -o cmTC_9b09b -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_1156b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1156b.dir/build.make CMakeFiles/cmTC_1156b.dir/build
+make[1]: 进入目录“/home/agv506/清仓小车/AGV506/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_1156b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1156b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1156b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1156b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_1156b.dir/CheckFunctionExists.c.o  -o cmTC_1156b -lpthreads 
 /usr/bin/ld: 找不到 -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_9b09b.dir/build.make:97: recipe for target 'cmTC_9b09b' failed
-make[1]: *** [cmTC_9b09b] Error 1
-make[1]: 离开目录“/home/agv506/AGV506/build/CMakeFiles/CMakeTmp”
-Makefile:126: recipe for target 'cmTC_9b09b/fast' failed
-make: *** [cmTC_9b09b/fast] Error 2
+CMakeFiles/cmTC_1156b.dir/build.make:97: recipe for target 'cmTC_1156b' failed
+make[1]: *** [cmTC_1156b] Error 1
+make[1]: 离开目录“/home/agv506/清仓小车/AGV506/build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_1156b/fast' failed
+make: *** [cmTC_1156b/fast] Error 2
 
 

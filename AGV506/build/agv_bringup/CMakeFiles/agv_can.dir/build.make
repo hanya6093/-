@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/agv506/AGV506/src
+CMAKE_SOURCE_DIR = /home/agv506/清仓小车/AGV506/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/agv506/AGV506/build
+CMAKE_BINARY_DIR = /home/agv506/清仓小车/AGV506/build
 
 # Include any dependencies generated for this target.
 include agv_bringup/CMakeFiles/agv_can.dir/depend.make
@@ -58,17 +58,17 @@ include agv_bringup/CMakeFiles/agv_can.dir/progress.make
 include agv_bringup/CMakeFiles/agv_can.dir/flags.make
 
 agv_bringup/CMakeFiles/agv_can.dir/src/can.cpp.o: agv_bringup/CMakeFiles/agv_can.dir/flags.make
-agv_bringup/CMakeFiles/agv_can.dir/src/can.cpp.o: /home/agv506/AGV506/src/agv_bringup/src/can.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object agv_bringup/CMakeFiles/agv_can.dir/src/can.cpp.o"
-	cd /home/agv506/AGV506/build/agv_bringup && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/agv_can.dir/src/can.cpp.o -c /home/agv506/AGV506/src/agv_bringup/src/can.cpp
+agv_bringup/CMakeFiles/agv_can.dir/src/can.cpp.o: /home/agv506/清仓小车/AGV506/src/agv_bringup/src/can.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object agv_bringup/CMakeFiles/agv_can.dir/src/can.cpp.o"
+	cd /home/agv506/清仓小车/AGV506/build/agv_bringup && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/agv_can.dir/src/can.cpp.o -c /home/agv506/清仓小车/AGV506/src/agv_bringup/src/can.cpp
 
 agv_bringup/CMakeFiles/agv_can.dir/src/can.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/agv_can.dir/src/can.cpp.i"
-	cd /home/agv506/AGV506/build/agv_bringup && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agv506/AGV506/src/agv_bringup/src/can.cpp > CMakeFiles/agv_can.dir/src/can.cpp.i
+	cd /home/agv506/清仓小车/AGV506/build/agv_bringup && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agv506/清仓小车/AGV506/src/agv_bringup/src/can.cpp > CMakeFiles/agv_can.dir/src/can.cpp.i
 
 agv_bringup/CMakeFiles/agv_can.dir/src/can.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/agv_can.dir/src/can.cpp.s"
-	cd /home/agv506/AGV506/build/agv_bringup && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agv506/AGV506/src/agv_bringup/src/can.cpp -o CMakeFiles/agv_can.dir/src/can.cpp.s
+	cd /home/agv506/清仓小车/AGV506/build/agv_bringup && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agv506/清仓小车/AGV506/src/agv_bringup/src/can.cpp -o CMakeFiles/agv_can.dir/src/can.cpp.s
 
 agv_bringup/CMakeFiles/agv_can.dir/src/can.cpp.o.requires:
 
@@ -88,39 +88,39 @@ agv_can_OBJECTS = \
 # External object files for target agv_can
 agv_can_EXTERNAL_OBJECTS =
 
-/home/agv506/AGV506/devel/lib/libagv_can.so: agv_bringup/CMakeFiles/agv_can.dir/src/can.cpp.o
-/home/agv506/AGV506/devel/lib/libagv_can.so: agv_bringup/CMakeFiles/agv_can.dir/build.make
-/home/agv506/AGV506/devel/lib/libagv_can.so: /home/agv506/AGV506/src/agv_bringup/lib/libcontrolcan.so
-/home/agv506/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/agv506/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/libtf.so
-/home/agv506/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/libtf2_ros.so
-/home/agv506/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/libactionlib.so
-/home/agv506/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/libmessage_filters.so
-/home/agv506/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/libtf2.so
-/home/agv506/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/libroscpp.so
-/home/agv506/AGV506/devel/lib/libagv_can.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/agv506/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/librosconsole.so
-/home/agv506/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/agv506/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/agv506/AGV506/devel/lib/libagv_can.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/agv506/AGV506/devel/lib/libagv_can.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/agv506/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/agv506/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/agv506/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/librostime.so
-/home/agv506/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/libcpp_common.so
-/home/agv506/AGV506/devel/lib/libagv_can.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/agv506/AGV506/devel/lib/libagv_can.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/agv506/AGV506/devel/lib/libagv_can.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/agv506/AGV506/devel/lib/libagv_can.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/agv506/AGV506/devel/lib/libagv_can.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/agv506/AGV506/devel/lib/libagv_can.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/agv506/AGV506/devel/lib/libagv_can.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/agv506/AGV506/devel/lib/libagv_can.so: agv_bringup/CMakeFiles/agv_can.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/agv506/AGV506/devel/lib/libagv_can.so"
-	cd /home/agv506/AGV506/build/agv_bringup && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/agv_can.dir/link.txt --verbose=$(VERBOSE)
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: agv_bringup/CMakeFiles/agv_can.dir/src/can.cpp.o
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: agv_bringup/CMakeFiles/agv_can.dir/build.make
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: /home/agv506/清仓小车/AGV506/src/agv_bringup/lib/libcontrolcan.so
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/libtf.so
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/libtf2_ros.so
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/libactionlib.so
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/libmessage_filters.so
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/libtf2.so
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/libroscpp.so
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/librosconsole.so
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/librostime.so
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: /opt/ros/melodic/lib/libcpp_common.so
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so: agv_bringup/CMakeFiles/agv_can.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so"
+	cd /home/agv506/清仓小车/AGV506/build/agv_bringup && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/agv_can.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-agv_bringup/CMakeFiles/agv_can.dir/build: /home/agv506/AGV506/devel/lib/libagv_can.so
+agv_bringup/CMakeFiles/agv_can.dir/build: /home/agv506/清仓小车/AGV506/devel/lib/libagv_can.so
 
 .PHONY : agv_bringup/CMakeFiles/agv_can.dir/build
 
@@ -129,10 +129,10 @@ agv_bringup/CMakeFiles/agv_can.dir/requires: agv_bringup/CMakeFiles/agv_can.dir/
 .PHONY : agv_bringup/CMakeFiles/agv_can.dir/requires
 
 agv_bringup/CMakeFiles/agv_can.dir/clean:
-	cd /home/agv506/AGV506/build/agv_bringup && $(CMAKE_COMMAND) -P CMakeFiles/agv_can.dir/cmake_clean.cmake
+	cd /home/agv506/清仓小车/AGV506/build/agv_bringup && $(CMAKE_COMMAND) -P CMakeFiles/agv_can.dir/cmake_clean.cmake
 .PHONY : agv_bringup/CMakeFiles/agv_can.dir/clean
 
 agv_bringup/CMakeFiles/agv_can.dir/depend:
-	cd /home/agv506/AGV506/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agv506/AGV506/src /home/agv506/AGV506/src/agv_bringup /home/agv506/AGV506/build /home/agv506/AGV506/build/agv_bringup /home/agv506/AGV506/build/agv_bringup/CMakeFiles/agv_can.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/agv506/清仓小车/AGV506/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agv506/清仓小车/AGV506/src /home/agv506/清仓小车/AGV506/src/agv_bringup /home/agv506/清仓小车/AGV506/build /home/agv506/清仓小车/AGV506/build/agv_bringup /home/agv506/清仓小车/AGV506/build/agv_bringup/CMakeFiles/agv_can.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : agv_bringup/CMakeFiles/agv_can.dir/depend
 

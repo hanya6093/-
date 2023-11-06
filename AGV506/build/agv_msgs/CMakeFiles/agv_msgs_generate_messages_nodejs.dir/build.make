@@ -43,117 +43,117 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/agv506/AGV506/src
+CMAKE_SOURCE_DIR = /home/agv506/清仓小车/AGV506/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/agv506/AGV506/build
+CMAKE_BINARY_DIR = /home/agv506/清仓小车/AGV506/build
 
 # Utility rule file for agv_msgs_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs.dir/progress.make
 
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/direction.js
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/ultrasonicRadar.js
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/steerangle.js
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/lightbuzzer.js
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/p_dmode.js
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/actionlimit.js
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/accelerator.js
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/gearbrake.js
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Light.js
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Gear.js
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Brake.js
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Arm.js
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Fight.js
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Dmode.js
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/steerangle.js
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/lightbuzzer.js
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/gearbrake.js
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/p_dmode.js
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/actionlimit.js
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/ultrasonicRadar.js
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/accelerator.js
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/direction.js
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Brake.js
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Arm.js
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Dmode.js
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Light.js
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Gear.js
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Fight.js
 
 
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/direction.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/direction.js: /home/agv506/AGV506/src/agv_msgs/msg/direction.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from agv_msgs/direction.msg"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/AGV506/src/agv_msgs/msg/direction.msg -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/steerangle.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/steerangle.js: /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/steerangle.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from agv_msgs/steerangle.msg"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/steerangle.msg -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg
 
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/ultrasonicRadar.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/ultrasonicRadar.js: /home/agv506/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from agv_msgs/ultrasonicRadar.msg"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/lightbuzzer.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/lightbuzzer.js: /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/lightbuzzer.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from agv_msgs/lightbuzzer.msg"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/lightbuzzer.msg -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg
 
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/steerangle.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/steerangle.js: /home/agv506/AGV506/src/agv_msgs/msg/steerangle.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from agv_msgs/steerangle.msg"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/AGV506/src/agv_msgs/msg/steerangle.msg -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/gearbrake.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/gearbrake.js: /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/gearbrake.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from agv_msgs/gearbrake.msg"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/gearbrake.msg -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg
 
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/lightbuzzer.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/lightbuzzer.js: /home/agv506/AGV506/src/agv_msgs/msg/lightbuzzer.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from agv_msgs/lightbuzzer.msg"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/AGV506/src/agv_msgs/msg/lightbuzzer.msg -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/p_dmode.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/p_dmode.js: /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/p_dmode.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from agv_msgs/p_dmode.msg"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/p_dmode.msg -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg
 
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/p_dmode.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/p_dmode.js: /home/agv506/AGV506/src/agv_msgs/msg/p_dmode.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from agv_msgs/p_dmode.msg"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/AGV506/src/agv_msgs/msg/p_dmode.msg -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/actionlimit.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/actionlimit.js: /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/actionlimit.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from agv_msgs/actionlimit.msg"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/actionlimit.msg -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg
 
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/actionlimit.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/actionlimit.js: /home/agv506/AGV506/src/agv_msgs/msg/actionlimit.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from agv_msgs/actionlimit.msg"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/AGV506/src/agv_msgs/msg/actionlimit.msg -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/ultrasonicRadar.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/ultrasonicRadar.js: /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from agv_msgs/ultrasonicRadar.msg"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg
 
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/accelerator.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/accelerator.js: /home/agv506/AGV506/src/agv_msgs/msg/accelerator.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from agv_msgs/accelerator.msg"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/AGV506/src/agv_msgs/msg/accelerator.msg -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/accelerator.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/accelerator.js: /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/accelerator.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from agv_msgs/accelerator.msg"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/accelerator.msg -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg
 
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/gearbrake.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/gearbrake.js: /home/agv506/AGV506/src/agv_msgs/msg/gearbrake.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from agv_msgs/gearbrake.msg"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/AGV506/src/agv_msgs/msg/gearbrake.msg -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/direction.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/direction.js: /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/direction.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from agv_msgs/direction.msg"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/direction.msg -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg
 
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Light.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Light.js: /home/agv506/AGV506/src/agv_msgs/srv/Light.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from agv_msgs/Light.srv"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/AGV506/src/agv_msgs/srv/Light.srv -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Brake.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Brake.js: /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Brake.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from agv_msgs/Brake.srv"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Brake.srv -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv
 
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Gear.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Gear.js: /home/agv506/AGV506/src/agv_msgs/srv/Gear.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Javascript code from agv_msgs/Gear.srv"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/AGV506/src/agv_msgs/srv/Gear.srv -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Arm.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Arm.js: /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Arm.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Javascript code from agv_msgs/Arm.srv"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Arm.srv -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv
 
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Brake.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Brake.js: /home/agv506/AGV506/src/agv_msgs/srv/Brake.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Javascript code from agv_msgs/Brake.srv"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/AGV506/src/agv_msgs/srv/Brake.srv -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Dmode.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Dmode.js: /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Dmode.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Javascript code from agv_msgs/Dmode.srv"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Dmode.srv -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv
 
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Arm.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Arm.js: /home/agv506/AGV506/src/agv_msgs/srv/Arm.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Javascript code from agv_msgs/Arm.srv"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/AGV506/src/agv_msgs/srv/Arm.srv -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Light.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Light.js: /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Light.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Javascript code from agv_msgs/Light.srv"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Light.srv -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv
 
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Fight.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Fight.js: /home/agv506/AGV506/src/agv_msgs/srv/Fight.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Javascript code from agv_msgs/Fight.srv"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/AGV506/src/agv_msgs/srv/Fight.srv -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Gear.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Gear.js: /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Gear.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Javascript code from agv_msgs/Gear.srv"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Gear.srv -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv
 
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Dmode.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Dmode.js: /home/agv506/AGV506/src/agv_msgs/srv/Dmode.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Javascript code from agv_msgs/Dmode.srv"
-	cd /home/agv506/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/AGV506/src/agv_msgs/srv/Dmode.srv -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Fight.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Fight.js: /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Fight.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Javascript code from agv_msgs/Fight.srv"
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Fight.srv -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv
 
 agv_msgs_generate_messages_nodejs: agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs
-agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/direction.js
-agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/ultrasonicRadar.js
-agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/steerangle.js
-agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/lightbuzzer.js
-agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/p_dmode.js
-agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/actionlimit.js
-agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/accelerator.js
-agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/gearbrake.js
-agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Light.js
-agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Gear.js
-agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Brake.js
-agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Arm.js
-agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Fight.js
-agv_msgs_generate_messages_nodejs: /home/agv506/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Dmode.js
+agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/steerangle.js
+agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/lightbuzzer.js
+agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/gearbrake.js
+agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/p_dmode.js
+agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/actionlimit.js
+agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/ultrasonicRadar.js
+agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/accelerator.js
+agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/msg/direction.js
+agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Brake.js
+agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Arm.js
+agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Dmode.js
+agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Light.js
+agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Gear.js
+agv_msgs_generate_messages_nodejs: /home/agv506/清仓小车/AGV506/devel/share/gennodejs/ros/agv_msgs/srv/Fight.js
 agv_msgs_generate_messages_nodejs: agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs.dir/build.make
 
 .PHONY : agv_msgs_generate_messages_nodejs
@@ -164,10 +164,10 @@ agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs.dir/build: agv_msgs_genera
 .PHONY : agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs.dir/build
 
 agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/agv506/AGV506/build/agv_msgs && $(CMAKE_COMMAND) -P CMakeFiles/agv_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && $(CMAKE_COMMAND) -P CMakeFiles/agv_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs.dir/clean
 
 agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/agv506/AGV506/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agv506/AGV506/src /home/agv506/AGV506/src/agv_msgs /home/agv506/AGV506/build /home/agv506/AGV506/build/agv_msgs /home/agv506/AGV506/build/agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/agv506/清仓小车/AGV506/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agv506/清仓小车/AGV506/src /home/agv506/清仓小车/AGV506/src/agv_msgs /home/agv506/清仓小车/AGV506/build /home/agv506/清仓小车/AGV506/build/agv_msgs /home/agv506/清仓小车/AGV506/build/agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : agv_msgs/CMakeFiles/agv_msgs_generate_messages_nodejs.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/agv506/AGV506/src
+CMAKE_SOURCE_DIR = /home/agv506/清仓小车/AGV506/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/agv506/AGV506/build
+CMAKE_BINARY_DIR = /home/agv506/清仓小车/AGV506/build
 
 # Include any dependencies generated for this target.
 include agv_bringup/CMakeFiles/agv_joy_node.dir/depend.make
@@ -58,17 +58,17 @@ include agv_bringup/CMakeFiles/agv_joy_node.dir/progress.make
 include agv_bringup/CMakeFiles/agv_joy_node.dir/flags.make
 
 agv_bringup/CMakeFiles/agv_joy_node.dir/src/joy.cpp.o: agv_bringup/CMakeFiles/agv_joy_node.dir/flags.make
-agv_bringup/CMakeFiles/agv_joy_node.dir/src/joy.cpp.o: /home/agv506/AGV506/src/agv_bringup/src/joy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object agv_bringup/CMakeFiles/agv_joy_node.dir/src/joy.cpp.o"
-	cd /home/agv506/AGV506/build/agv_bringup && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/agv_joy_node.dir/src/joy.cpp.o -c /home/agv506/AGV506/src/agv_bringup/src/joy.cpp
+agv_bringup/CMakeFiles/agv_joy_node.dir/src/joy.cpp.o: /home/agv506/清仓小车/AGV506/src/agv_bringup/src/joy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object agv_bringup/CMakeFiles/agv_joy_node.dir/src/joy.cpp.o"
+	cd /home/agv506/清仓小车/AGV506/build/agv_bringup && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/agv_joy_node.dir/src/joy.cpp.o -c /home/agv506/清仓小车/AGV506/src/agv_bringup/src/joy.cpp
 
 agv_bringup/CMakeFiles/agv_joy_node.dir/src/joy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/agv_joy_node.dir/src/joy.cpp.i"
-	cd /home/agv506/AGV506/build/agv_bringup && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agv506/AGV506/src/agv_bringup/src/joy.cpp > CMakeFiles/agv_joy_node.dir/src/joy.cpp.i
+	cd /home/agv506/清仓小车/AGV506/build/agv_bringup && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agv506/清仓小车/AGV506/src/agv_bringup/src/joy.cpp > CMakeFiles/agv_joy_node.dir/src/joy.cpp.i
 
 agv_bringup/CMakeFiles/agv_joy_node.dir/src/joy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/agv_joy_node.dir/src/joy.cpp.s"
-	cd /home/agv506/AGV506/build/agv_bringup && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agv506/AGV506/src/agv_bringup/src/joy.cpp -o CMakeFiles/agv_joy_node.dir/src/joy.cpp.s
+	cd /home/agv506/清仓小车/AGV506/build/agv_bringup && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agv506/清仓小车/AGV506/src/agv_bringup/src/joy.cpp -o CMakeFiles/agv_joy_node.dir/src/joy.cpp.s
 
 agv_bringup/CMakeFiles/agv_joy_node.dir/src/joy.cpp.o.requires:
 
@@ -88,39 +88,39 @@ agv_joy_node_OBJECTS = \
 # External object files for target agv_joy_node
 agv_joy_node_EXTERNAL_OBJECTS =
 
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: agv_bringup/CMakeFiles/agv_joy_node.dir/src/joy.cpp.o
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: agv_bringup/CMakeFiles/agv_joy_node.dir/build.make
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: /home/agv506/AGV506/devel/lib/libagv_joy.so
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/libtf.so
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/libtf2_ros.so
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/libactionlib.so
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/libmessage_filters.so
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/libtf2.so
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/libroscpp.so
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/librosconsole.so
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/librostime.so
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/libcpp_common.so
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node: agv_bringup/CMakeFiles/agv_joy_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node"
-	cd /home/agv506/AGV506/build/agv_bringup && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/agv_joy_node.dir/link.txt --verbose=$(VERBOSE)
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: agv_bringup/CMakeFiles/agv_joy_node.dir/src/joy.cpp.o
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: agv_bringup/CMakeFiles/agv_joy_node.dir/build.make
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: /home/agv506/清仓小车/AGV506/devel/lib/libagv_joy.so
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/libtf.so
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/libtf2_ros.so
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/libactionlib.so
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/libmessage_filters.so
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/libtf2.so
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/libroscpp.so
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/librosconsole.so
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/librostime.so
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: /opt/ros/melodic/lib/libcpp_common.so
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node: agv_bringup/CMakeFiles/agv_joy_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node"
+	cd /home/agv506/清仓小车/AGV506/build/agv_bringup && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/agv_joy_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-agv_bringup/CMakeFiles/agv_joy_node.dir/build: /home/agv506/AGV506/devel/lib/agv_bringup/agv_joy_node
+agv_bringup/CMakeFiles/agv_joy_node.dir/build: /home/agv506/清仓小车/AGV506/devel/lib/agv_bringup/agv_joy_node
 
 .PHONY : agv_bringup/CMakeFiles/agv_joy_node.dir/build
 
@@ -129,10 +129,10 @@ agv_bringup/CMakeFiles/agv_joy_node.dir/requires: agv_bringup/CMakeFiles/agv_joy
 .PHONY : agv_bringup/CMakeFiles/agv_joy_node.dir/requires
 
 agv_bringup/CMakeFiles/agv_joy_node.dir/clean:
-	cd /home/agv506/AGV506/build/agv_bringup && $(CMAKE_COMMAND) -P CMakeFiles/agv_joy_node.dir/cmake_clean.cmake
+	cd /home/agv506/清仓小车/AGV506/build/agv_bringup && $(CMAKE_COMMAND) -P CMakeFiles/agv_joy_node.dir/cmake_clean.cmake
 .PHONY : agv_bringup/CMakeFiles/agv_joy_node.dir/clean
 
 agv_bringup/CMakeFiles/agv_joy_node.dir/depend:
-	cd /home/agv506/AGV506/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agv506/AGV506/src /home/agv506/AGV506/src/agv_bringup /home/agv506/AGV506/build /home/agv506/AGV506/build/agv_bringup /home/agv506/AGV506/build/agv_bringup/CMakeFiles/agv_joy_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/agv506/清仓小车/AGV506/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agv506/清仓小车/AGV506/src /home/agv506/清仓小车/AGV506/src/agv_bringup /home/agv506/清仓小车/AGV506/build /home/agv506/清仓小车/AGV506/build/agv_bringup /home/agv506/清仓小车/AGV506/build/agv_bringup/CMakeFiles/agv_joy_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : agv_bringup/CMakeFiles/agv_joy_node.dir/depend
 

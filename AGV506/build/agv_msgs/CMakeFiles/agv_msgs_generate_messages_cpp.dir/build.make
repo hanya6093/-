@@ -43,137 +43,137 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/agv506/AGV506/src
+CMAKE_SOURCE_DIR = /home/agv506/清仓小车/AGV506/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/agv506/AGV506/build
+CMAKE_BINARY_DIR = /home/agv506/清仓小车/AGV506/build
 
 # Utility rule file for agv_msgs_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp.dir/progress.make
 
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/direction.h
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/ultrasonicRadar.h
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/steerangle.h
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/lightbuzzer.h
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/p_dmode.h
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/actionlimit.h
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/accelerator.h
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/gearbrake.h
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/Light.h
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/Gear.h
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/Brake.h
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/Arm.h
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/Fight.h
-agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/Dmode.h
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/steerangle.h
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/lightbuzzer.h
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/gearbrake.h
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/p_dmode.h
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/actionlimit.h
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/ultrasonicRadar.h
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/accelerator.h
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/direction.h
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Brake.h
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Arm.h
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Dmode.h
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Light.h
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Gear.h
+agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Fight.h
 
 
-/home/agv506/AGV506/devel/include/agv_msgs/direction.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/agv506/AGV506/devel/include/agv_msgs/direction.h: /home/agv506/AGV506/src/agv_msgs/msg/direction.msg
-/home/agv506/AGV506/devel/include/agv_msgs/direction.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from agv_msgs/direction.msg"
-	cd /home/agv506/AGV506/src/agv_msgs && /home/agv506/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/AGV506/src/agv_msgs/msg/direction.msg -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/steerangle.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/steerangle.h: /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/steerangle.msg
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/steerangle.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from agv_msgs/steerangle.msg"
+	cd /home/agv506/清仓小车/AGV506/src/agv_msgs && /home/agv506/清仓小车/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/steerangle.msg -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/agv506/AGV506/devel/include/agv_msgs/ultrasonicRadar.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/agv506/AGV506/devel/include/agv_msgs/ultrasonicRadar.h: /home/agv506/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg
-/home/agv506/AGV506/devel/include/agv_msgs/ultrasonicRadar.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from agv_msgs/ultrasonicRadar.msg"
-	cd /home/agv506/AGV506/src/agv_msgs && /home/agv506/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/lightbuzzer.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/lightbuzzer.h: /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/lightbuzzer.msg
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/lightbuzzer.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from agv_msgs/lightbuzzer.msg"
+	cd /home/agv506/清仓小车/AGV506/src/agv_msgs && /home/agv506/清仓小车/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/lightbuzzer.msg -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/agv506/AGV506/devel/include/agv_msgs/steerangle.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/agv506/AGV506/devel/include/agv_msgs/steerangle.h: /home/agv506/AGV506/src/agv_msgs/msg/steerangle.msg
-/home/agv506/AGV506/devel/include/agv_msgs/steerangle.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from agv_msgs/steerangle.msg"
-	cd /home/agv506/AGV506/src/agv_msgs && /home/agv506/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/AGV506/src/agv_msgs/msg/steerangle.msg -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/gearbrake.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/gearbrake.h: /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/gearbrake.msg
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/gearbrake.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from agv_msgs/gearbrake.msg"
+	cd /home/agv506/清仓小车/AGV506/src/agv_msgs && /home/agv506/清仓小车/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/gearbrake.msg -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/agv506/AGV506/devel/include/agv_msgs/lightbuzzer.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/agv506/AGV506/devel/include/agv_msgs/lightbuzzer.h: /home/agv506/AGV506/src/agv_msgs/msg/lightbuzzer.msg
-/home/agv506/AGV506/devel/include/agv_msgs/lightbuzzer.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from agv_msgs/lightbuzzer.msg"
-	cd /home/agv506/AGV506/src/agv_msgs && /home/agv506/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/AGV506/src/agv_msgs/msg/lightbuzzer.msg -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/p_dmode.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/p_dmode.h: /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/p_dmode.msg
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/p_dmode.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from agv_msgs/p_dmode.msg"
+	cd /home/agv506/清仓小车/AGV506/src/agv_msgs && /home/agv506/清仓小车/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/p_dmode.msg -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/agv506/AGV506/devel/include/agv_msgs/p_dmode.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/agv506/AGV506/devel/include/agv_msgs/p_dmode.h: /home/agv506/AGV506/src/agv_msgs/msg/p_dmode.msg
-/home/agv506/AGV506/devel/include/agv_msgs/p_dmode.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from agv_msgs/p_dmode.msg"
-	cd /home/agv506/AGV506/src/agv_msgs && /home/agv506/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/AGV506/src/agv_msgs/msg/p_dmode.msg -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/actionlimit.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/actionlimit.h: /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/actionlimit.msg
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/actionlimit.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from agv_msgs/actionlimit.msg"
+	cd /home/agv506/清仓小车/AGV506/src/agv_msgs && /home/agv506/清仓小车/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/actionlimit.msg -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/agv506/AGV506/devel/include/agv_msgs/actionlimit.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/agv506/AGV506/devel/include/agv_msgs/actionlimit.h: /home/agv506/AGV506/src/agv_msgs/msg/actionlimit.msg
-/home/agv506/AGV506/devel/include/agv_msgs/actionlimit.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from agv_msgs/actionlimit.msg"
-	cd /home/agv506/AGV506/src/agv_msgs && /home/agv506/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/AGV506/src/agv_msgs/msg/actionlimit.msg -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/ultrasonicRadar.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/ultrasonicRadar.h: /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/ultrasonicRadar.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from agv_msgs/ultrasonicRadar.msg"
+	cd /home/agv506/清仓小车/AGV506/src/agv_msgs && /home/agv506/清仓小车/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/agv506/AGV506/devel/include/agv_msgs/accelerator.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/agv506/AGV506/devel/include/agv_msgs/accelerator.h: /home/agv506/AGV506/src/agv_msgs/msg/accelerator.msg
-/home/agv506/AGV506/devel/include/agv_msgs/accelerator.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from agv_msgs/accelerator.msg"
-	cd /home/agv506/AGV506/src/agv_msgs && /home/agv506/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/AGV506/src/agv_msgs/msg/accelerator.msg -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/accelerator.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/accelerator.h: /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/accelerator.msg
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/accelerator.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from agv_msgs/accelerator.msg"
+	cd /home/agv506/清仓小车/AGV506/src/agv_msgs && /home/agv506/清仓小车/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/accelerator.msg -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/agv506/AGV506/devel/include/agv_msgs/gearbrake.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/agv506/AGV506/devel/include/agv_msgs/gearbrake.h: /home/agv506/AGV506/src/agv_msgs/msg/gearbrake.msg
-/home/agv506/AGV506/devel/include/agv_msgs/gearbrake.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from agv_msgs/gearbrake.msg"
-	cd /home/agv506/AGV506/src/agv_msgs && /home/agv506/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/AGV506/src/agv_msgs/msg/gearbrake.msg -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/direction.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/direction.h: /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/direction.msg
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/direction.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from agv_msgs/direction.msg"
+	cd /home/agv506/清仓小车/AGV506/src/agv_msgs && /home/agv506/清仓小车/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/清仓小车/AGV506/src/agv_msgs/msg/direction.msg -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/agv506/AGV506/devel/include/agv_msgs/Light.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/agv506/AGV506/devel/include/agv_msgs/Light.h: /home/agv506/AGV506/src/agv_msgs/srv/Light.srv
-/home/agv506/AGV506/devel/include/agv_msgs/Light.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/agv506/AGV506/devel/include/agv_msgs/Light.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from agv_msgs/Light.srv"
-	cd /home/agv506/AGV506/src/agv_msgs && /home/agv506/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/AGV506/src/agv_msgs/srv/Light.srv -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Brake.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Brake.h: /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Brake.srv
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Brake.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Brake.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from agv_msgs/Brake.srv"
+	cd /home/agv506/清仓小车/AGV506/src/agv_msgs && /home/agv506/清仓小车/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Brake.srv -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/agv506/AGV506/devel/include/agv_msgs/Gear.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/agv506/AGV506/devel/include/agv_msgs/Gear.h: /home/agv506/AGV506/src/agv_msgs/srv/Gear.srv
-/home/agv506/AGV506/devel/include/agv_msgs/Gear.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/agv506/AGV506/devel/include/agv_msgs/Gear.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from agv_msgs/Gear.srv"
-	cd /home/agv506/AGV506/src/agv_msgs && /home/agv506/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/AGV506/src/agv_msgs/srv/Gear.srv -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Arm.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Arm.h: /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Arm.srv
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Arm.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Arm.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from agv_msgs/Arm.srv"
+	cd /home/agv506/清仓小车/AGV506/src/agv_msgs && /home/agv506/清仓小车/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Arm.srv -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/agv506/AGV506/devel/include/agv_msgs/Brake.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/agv506/AGV506/devel/include/agv_msgs/Brake.h: /home/agv506/AGV506/src/agv_msgs/srv/Brake.srv
-/home/agv506/AGV506/devel/include/agv_msgs/Brake.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/agv506/AGV506/devel/include/agv_msgs/Brake.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from agv_msgs/Brake.srv"
-	cd /home/agv506/AGV506/src/agv_msgs && /home/agv506/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/AGV506/src/agv_msgs/srv/Brake.srv -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Dmode.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Dmode.h: /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Dmode.srv
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Dmode.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Dmode.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from agv_msgs/Dmode.srv"
+	cd /home/agv506/清仓小车/AGV506/src/agv_msgs && /home/agv506/清仓小车/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Dmode.srv -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/agv506/AGV506/devel/include/agv_msgs/Arm.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/agv506/AGV506/devel/include/agv_msgs/Arm.h: /home/agv506/AGV506/src/agv_msgs/srv/Arm.srv
-/home/agv506/AGV506/devel/include/agv_msgs/Arm.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/agv506/AGV506/devel/include/agv_msgs/Arm.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from agv_msgs/Arm.srv"
-	cd /home/agv506/AGV506/src/agv_msgs && /home/agv506/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/AGV506/src/agv_msgs/srv/Arm.srv -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Light.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Light.h: /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Light.srv
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Light.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Light.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from agv_msgs/Light.srv"
+	cd /home/agv506/清仓小车/AGV506/src/agv_msgs && /home/agv506/清仓小车/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Light.srv -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/agv506/AGV506/devel/include/agv_msgs/Fight.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/agv506/AGV506/devel/include/agv_msgs/Fight.h: /home/agv506/AGV506/src/agv_msgs/srv/Fight.srv
-/home/agv506/AGV506/devel/include/agv_msgs/Fight.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/agv506/AGV506/devel/include/agv_msgs/Fight.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating C++ code from agv_msgs/Fight.srv"
-	cd /home/agv506/AGV506/src/agv_msgs && /home/agv506/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/AGV506/src/agv_msgs/srv/Fight.srv -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Gear.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Gear.h: /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Gear.srv
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Gear.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Gear.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating C++ code from agv_msgs/Gear.srv"
+	cd /home/agv506/清仓小车/AGV506/src/agv_msgs && /home/agv506/清仓小车/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Gear.srv -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/agv506/AGV506/devel/include/agv_msgs/Dmode.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/agv506/AGV506/devel/include/agv_msgs/Dmode.h: /home/agv506/AGV506/src/agv_msgs/srv/Dmode.srv
-/home/agv506/AGV506/devel/include/agv_msgs/Dmode.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/agv506/AGV506/devel/include/agv_msgs/Dmode.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating C++ code from agv_msgs/Dmode.srv"
-	cd /home/agv506/AGV506/src/agv_msgs && /home/agv506/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/AGV506/src/agv_msgs/srv/Dmode.srv -Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Fight.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Fight.h: /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Fight.srv
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Fight.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Fight.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/agv506/清仓小车/AGV506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating C++ code from agv_msgs/Fight.srv"
+	cd /home/agv506/清仓小车/AGV506/src/agv_msgs && /home/agv506/清仓小车/AGV506/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Fight.srv -Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p agv_msgs -o /home/agv506/清仓小车/AGV506/devel/include/agv_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
 agv_msgs_generate_messages_cpp: agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp
-agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/direction.h
-agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/ultrasonicRadar.h
-agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/steerangle.h
-agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/lightbuzzer.h
-agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/p_dmode.h
-agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/actionlimit.h
-agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/accelerator.h
-agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/gearbrake.h
-agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/Light.h
-agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/Gear.h
-agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/Brake.h
-agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/Arm.h
-agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/Fight.h
-agv_msgs_generate_messages_cpp: /home/agv506/AGV506/devel/include/agv_msgs/Dmode.h
+agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/steerangle.h
+agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/lightbuzzer.h
+agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/gearbrake.h
+agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/p_dmode.h
+agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/actionlimit.h
+agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/ultrasonicRadar.h
+agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/accelerator.h
+agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/direction.h
+agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Brake.h
+agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Arm.h
+agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Dmode.h
+agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Light.h
+agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Gear.h
+agv_msgs_generate_messages_cpp: /home/agv506/清仓小车/AGV506/devel/include/agv_msgs/Fight.h
 agv_msgs_generate_messages_cpp: agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp.dir/build.make
 
 .PHONY : agv_msgs_generate_messages_cpp
@@ -184,10 +184,10 @@ agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp.dir/build: agv_msgs_generate_
 .PHONY : agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp.dir/build
 
 agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp.dir/clean:
-	cd /home/agv506/AGV506/build/agv_msgs && $(CMAKE_COMMAND) -P CMakeFiles/agv_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && $(CMAKE_COMMAND) -P CMakeFiles/agv_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp.dir/clean
 
 agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp.dir/depend:
-	cd /home/agv506/AGV506/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agv506/AGV506/src /home/agv506/AGV506/src/agv_msgs /home/agv506/AGV506/build /home/agv506/AGV506/build/agv_msgs /home/agv506/AGV506/build/agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/agv506/清仓小车/AGV506/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agv506/清仓小车/AGV506/src /home/agv506/清仓小车/AGV506/src/agv_msgs /home/agv506/清仓小车/AGV506/build /home/agv506/清仓小车/AGV506/build/agv_msgs /home/agv506/清仓小车/AGV506/build/agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : agv_msgs/CMakeFiles/agv_msgs_generate_messages_cpp.dir/depend
 

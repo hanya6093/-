@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/agv506/AGV506/src
+CMAKE_SOURCE_DIR = /home/agv506/清仓小车/AGV506/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/agv506/AGV506/build
+CMAKE_BINARY_DIR = /home/agv506/清仓小车/AGV506/build
 
 # Utility rule file for geometry_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ agv_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/build: geometry_msgs_
 .PHONY : agv_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 
 agv_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
-	cd /home/agv506/AGV506/build/agv_msgs && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/agv506/清仓小车/AGV506/build/agv_msgs && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : agv_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 
 agv_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend:
-	cd /home/agv506/AGV506/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agv506/AGV506/src /home/agv506/AGV506/src/agv_msgs /home/agv506/AGV506/build /home/agv506/AGV506/build/agv_msgs /home/agv506/AGV506/build/agv_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/agv506/清仓小车/AGV506/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agv506/清仓小车/AGV506/src /home/agv506/清仓小车/AGV506/src/agv_msgs /home/agv506/清仓小车/AGV506/build /home/agv506/清仓小车/AGV506/build/agv_msgs /home/agv506/清仓小车/AGV506/build/agv_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : agv_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
 

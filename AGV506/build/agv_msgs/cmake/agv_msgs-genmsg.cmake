@@ -2,7 +2,7 @@
 
 message(STATUS "agv_msgs: 8 messages, 6 services")
 
-set(MSG_I_FLAGS "-Iagv_msgs:/home/agv506/AGV506/src/agv_msgs/msg;-Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Iagv_msgs:/home/agv506/清仓小车/AGV506/src/agv_msgs/msg;-Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,74 +17,74 @@ add_custom_target(agv_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/direction.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Brake.srv" NAME_WE)
 add_custom_target(_agv_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/AGV506/src/agv_msgs/msg/direction.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Brake.srv" ""
 )
 
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Arm.srv" NAME_WE)
 add_custom_target(_agv_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Arm.srv" ""
 )
 
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Gear.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/steerangle.msg" NAME_WE)
 add_custom_target(_agv_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/AGV506/src/agv_msgs/srv/Gear.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/steerangle.msg" ""
 )
 
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Brake.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/lightbuzzer.msg" NAME_WE)
 add_custom_target(_agv_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/AGV506/src/agv_msgs/srv/Brake.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/lightbuzzer.msg" ""
 )
 
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Light.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/gearbrake.msg" NAME_WE)
 add_custom_target(_agv_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/AGV506/src/agv_msgs/srv/Light.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/gearbrake.msg" ""
 )
 
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Fight.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/p_dmode.msg" NAME_WE)
 add_custom_target(_agv_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/AGV506/src/agv_msgs/srv/Fight.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/p_dmode.msg" ""
 )
 
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/steerangle.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/actionlimit.msg" NAME_WE)
 add_custom_target(_agv_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/AGV506/src/agv_msgs/msg/steerangle.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/actionlimit.msg" ""
 )
 
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Arm.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Fight.srv" NAME_WE)
 add_custom_target(_agv_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/AGV506/src/agv_msgs/srv/Arm.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Fight.srv" ""
 )
 
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Dmode.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg" NAME_WE)
 add_custom_target(_agv_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/AGV506/src/agv_msgs/srv/Dmode.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg" ""
 )
 
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/lightbuzzer.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Dmode.srv" NAME_WE)
 add_custom_target(_agv_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/AGV506/src/agv_msgs/msg/lightbuzzer.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Dmode.srv" ""
 )
 
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/p_dmode.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/accelerator.msg" NAME_WE)
 add_custom_target(_agv_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/AGV506/src/agv_msgs/msg/p_dmode.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/accelerator.msg" ""
 )
 
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/actionlimit.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Gear.srv" NAME_WE)
 add_custom_target(_agv_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/AGV506/src/agv_msgs/msg/actionlimit.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Gear.srv" ""
 )
 
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/accelerator.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/direction.msg" NAME_WE)
 add_custom_target(_agv_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/AGV506/src/agv_msgs/msg/accelerator.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/direction.msg" ""
 )
 
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/gearbrake.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Light.srv" NAME_WE)
 add_custom_target(_agv_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/AGV506/src/agv_msgs/msg/gearbrake.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agv_msgs" "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Light.srv" ""
 )
 
 #
@@ -94,49 +94,49 @@ add_custom_target(_agv_msgs_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/direction.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/steerangle.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_cpp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/lightbuzzer.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_cpp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/steerangle.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/gearbrake.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_cpp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/lightbuzzer.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/p_dmode.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_cpp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/p_dmode.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/actionlimit.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_cpp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/actionlimit.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_cpp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/accelerator.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/accelerator.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_cpp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/gearbrake.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/direction.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/agv_msgs
@@ -144,37 +144,37 @@ _generate_msg_cpp(agv_msgs
 
 ### Generating Services
 _generate_srv_cpp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Light.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Brake.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/agv_msgs
 )
 _generate_srv_cpp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Gear.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Arm.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/agv_msgs
 )
 _generate_srv_cpp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Brake.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Dmode.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/agv_msgs
 )
 _generate_srv_cpp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Arm.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Light.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/agv_msgs
 )
 _generate_srv_cpp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Fight.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Gear.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/agv_msgs
 )
 _generate_srv_cpp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Dmode.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Fight.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/agv_msgs
@@ -192,33 +192,33 @@ add_custom_target(agv_msgs_generate_messages_cpp
 add_dependencies(agv_msgs_generate_messages agv_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/direction.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Brake.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_cpp _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Arm.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_cpp _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Gear.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/steerangle.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_cpp _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Brake.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/lightbuzzer.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_cpp _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Light.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/gearbrake.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_cpp _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Fight.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/p_dmode.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_cpp _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/steerangle.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/actionlimit.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_cpp _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Arm.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Fight.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_cpp _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Dmode.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_cpp _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/lightbuzzer.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Dmode.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_cpp _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/p_dmode.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/accelerator.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_cpp _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/actionlimit.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Gear.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_cpp _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/accelerator.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/direction.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_cpp _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/gearbrake.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Light.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_cpp _agv_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -231,49 +231,49 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS agv_msgs_generate_messages_cpp)
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/direction.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/steerangle.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_eus(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/lightbuzzer.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_eus(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/steerangle.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/gearbrake.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_eus(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/lightbuzzer.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/p_dmode.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_eus(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/p_dmode.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/actionlimit.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_eus(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/actionlimit.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_eus(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/accelerator.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/accelerator.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_eus(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/gearbrake.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/direction.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/agv_msgs
@@ -281,37 +281,37 @@ _generate_msg_eus(agv_msgs
 
 ### Generating Services
 _generate_srv_eus(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Light.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Brake.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/agv_msgs
 )
 _generate_srv_eus(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Gear.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Arm.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/agv_msgs
 )
 _generate_srv_eus(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Brake.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Dmode.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/agv_msgs
 )
 _generate_srv_eus(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Arm.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Light.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/agv_msgs
 )
 _generate_srv_eus(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Fight.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Gear.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/agv_msgs
 )
 _generate_srv_eus(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Dmode.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Fight.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/agv_msgs
@@ -329,33 +329,33 @@ add_custom_target(agv_msgs_generate_messages_eus
 add_dependencies(agv_msgs_generate_messages agv_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/direction.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Brake.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_eus _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Arm.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_eus _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Gear.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/steerangle.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_eus _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Brake.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/lightbuzzer.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_eus _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Light.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/gearbrake.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_eus _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Fight.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/p_dmode.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_eus _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/steerangle.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/actionlimit.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_eus _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Arm.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Fight.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_eus _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Dmode.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_eus _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/lightbuzzer.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Dmode.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_eus _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/p_dmode.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/accelerator.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_eus _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/actionlimit.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Gear.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_eus _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/accelerator.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/direction.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_eus _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/gearbrake.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Light.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_eus _agv_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -368,49 +368,49 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS agv_msgs_generate_messages_eus)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/direction.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/steerangle.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_lisp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/lightbuzzer.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_lisp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/steerangle.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/gearbrake.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_lisp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/lightbuzzer.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/p_dmode.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_lisp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/p_dmode.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/actionlimit.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_lisp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/actionlimit.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_lisp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/accelerator.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/accelerator.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_lisp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/gearbrake.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/direction.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/agv_msgs
@@ -418,37 +418,37 @@ _generate_msg_lisp(agv_msgs
 
 ### Generating Services
 _generate_srv_lisp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Light.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Brake.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/agv_msgs
 )
 _generate_srv_lisp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Gear.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Arm.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/agv_msgs
 )
 _generate_srv_lisp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Brake.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Dmode.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/agv_msgs
 )
 _generate_srv_lisp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Arm.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Light.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/agv_msgs
 )
 _generate_srv_lisp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Fight.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Gear.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/agv_msgs
 )
 _generate_srv_lisp(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Dmode.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Fight.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/agv_msgs
@@ -466,33 +466,33 @@ add_custom_target(agv_msgs_generate_messages_lisp
 add_dependencies(agv_msgs_generate_messages agv_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/direction.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Brake.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_lisp _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Arm.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_lisp _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Gear.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/steerangle.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_lisp _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Brake.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/lightbuzzer.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_lisp _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Light.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/gearbrake.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_lisp _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Fight.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/p_dmode.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_lisp _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/steerangle.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/actionlimit.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_lisp _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Arm.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Fight.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_lisp _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Dmode.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_lisp _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/lightbuzzer.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Dmode.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_lisp _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/p_dmode.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/accelerator.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_lisp _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/actionlimit.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Gear.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_lisp _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/accelerator.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/direction.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_lisp _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/gearbrake.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Light.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_lisp _agv_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -505,49 +505,49 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS agv_msgs_generate_messages_lisp)
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/direction.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/steerangle.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_nodejs(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/lightbuzzer.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_nodejs(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/steerangle.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/gearbrake.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_nodejs(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/lightbuzzer.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/p_dmode.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_nodejs(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/p_dmode.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/actionlimit.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_nodejs(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/actionlimit.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_nodejs(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/accelerator.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/accelerator.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_nodejs(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/gearbrake.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/direction.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/agv_msgs
@@ -555,37 +555,37 @@ _generate_msg_nodejs(agv_msgs
 
 ### Generating Services
 _generate_srv_nodejs(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Light.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Brake.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/agv_msgs
 )
 _generate_srv_nodejs(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Gear.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Arm.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/agv_msgs
 )
 _generate_srv_nodejs(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Brake.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Dmode.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/agv_msgs
 )
 _generate_srv_nodejs(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Arm.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Light.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/agv_msgs
 )
 _generate_srv_nodejs(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Fight.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Gear.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/agv_msgs
 )
 _generate_srv_nodejs(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Dmode.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Fight.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/agv_msgs
@@ -603,33 +603,33 @@ add_custom_target(agv_msgs_generate_messages_nodejs
 add_dependencies(agv_msgs_generate_messages agv_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/direction.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Brake.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_nodejs _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Arm.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_nodejs _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Gear.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/steerangle.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_nodejs _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Brake.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/lightbuzzer.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_nodejs _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Light.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/gearbrake.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_nodejs _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Fight.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/p_dmode.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_nodejs _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/steerangle.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/actionlimit.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_nodejs _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Arm.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Fight.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_nodejs _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Dmode.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_nodejs _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/lightbuzzer.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Dmode.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_nodejs _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/p_dmode.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/accelerator.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_nodejs _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/actionlimit.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Gear.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_nodejs _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/accelerator.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/direction.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_nodejs _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/gearbrake.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Light.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_nodejs _agv_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -642,49 +642,49 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS agv_msgs_generate_messages_nodejs)
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/direction.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/steerangle.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_py(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/lightbuzzer.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_py(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/steerangle.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/gearbrake.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_py(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/lightbuzzer.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/p_dmode.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_py(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/p_dmode.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/actionlimit.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_py(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/actionlimit.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_py(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/accelerator.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/accelerator.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/agv_msgs
 )
 _generate_msg_py(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/msg/gearbrake.msg"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/direction.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/agv_msgs
@@ -692,37 +692,37 @@ _generate_msg_py(agv_msgs
 
 ### Generating Services
 _generate_srv_py(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Light.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Brake.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/agv_msgs
 )
 _generate_srv_py(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Gear.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Arm.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/agv_msgs
 )
 _generate_srv_py(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Brake.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Dmode.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/agv_msgs
 )
 _generate_srv_py(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Arm.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Light.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/agv_msgs
 )
 _generate_srv_py(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Fight.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Gear.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/agv_msgs
 )
 _generate_srv_py(agv_msgs
-  "/home/agv506/AGV506/src/agv_msgs/srv/Dmode.srv"
+  "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Fight.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/agv_msgs
@@ -740,33 +740,33 @@ add_custom_target(agv_msgs_generate_messages_py
 add_dependencies(agv_msgs_generate_messages agv_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/direction.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Brake.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_py _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Arm.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_py _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Gear.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/steerangle.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_py _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Brake.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/lightbuzzer.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_py _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Light.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/gearbrake.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_py _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Fight.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/p_dmode.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_py _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/steerangle.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/actionlimit.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_py _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Arm.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Fight.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_py _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/srv/Dmode.srv" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/ultrasonicRadar.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_py _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/lightbuzzer.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Dmode.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_py _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/p_dmode.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/accelerator.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_py _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/actionlimit.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Gear.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_py _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/accelerator.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/msg/direction.msg" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_py _agv_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/agv506/AGV506/src/agv_msgs/msg/gearbrake.msg" NAME_WE)
+get_filename_component(_filename "/home/agv506/清仓小车/AGV506/src/agv_msgs/srv/Light.srv" NAME_WE)
 add_dependencies(agv_msgs_generate_messages_py _agv_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

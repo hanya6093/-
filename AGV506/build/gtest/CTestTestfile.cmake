@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
 # Source directory: /usr/src/googletest
-# Build directory: /home/agv506/AGV506/build/gtest
+# Build directory: /home/agv506/清仓小车/AGV506/build/gtest
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
