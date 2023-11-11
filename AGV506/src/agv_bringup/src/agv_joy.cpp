@@ -1,3 +1,9 @@
+/*
+    创建了一个tcp服务端，作用不明，可以去除
+*/
+
+
+
 #include "agv_bringup/agv_joy.h"
 // #include "agv_msgs/Dmode.h"
 // #include "agv_msgs/Gear.h"

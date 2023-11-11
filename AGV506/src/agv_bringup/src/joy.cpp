@@ -1,3 +1,8 @@
+/*
+    创建一个joy的TCP控制节点，意义不明
+*/
+
+
 #include "agv_bringup/agv_joy.h"    // joy解析类
 
 int main(int argc, char** argv)

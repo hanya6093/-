@@ -1,3 +1,8 @@
+/*
+    CAN通讯节点调用，进入CAN数据处理部分，接收或者发送CAN数据
+*/
+
+
 #include "agv_bringup/can.h"
 
 

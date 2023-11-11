@@ -27,7 +27,7 @@ from std_msgs.msg import Int32
 """
 class agv_driver:
     def __init__(self) -> None:
-        rospy.on_shutdown(self.concel)
+        rospy.on_shutdown(self.concel)  # 需要实现一个concel方法，关闭节点时自动调用
         
 
 
