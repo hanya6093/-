@@ -1,0 +1,13 @@
+<!--
+    功能：接收远程遥控端的can数据，解析数据，发送can数据给车载控制器
+    收发数据节点：：(以上位机为中心)
+        1、接收手柄和方向盘发送过来的CAN数据，解析数据，处理数据
+        2、接收ros节点的发送的车辆控制数据，
+        3、将数据整合成CAN数据格式发送给车载控制器
+-->
+
+<launch>
+    <!-- <param name="use_sim_time" value="false"/> -->
+    <!-- 接收手柄、方向盘发过来的消息并进行解析，通过ros节点发送数据给车载控制器 -->
+    <node name="vehicle_ctrl" pkg="agv_bringup" type="vehicle_ctrl_node" output="screen" respawn="false"/>
+</launch>

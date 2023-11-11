@@ -1,8 +1,0 @@
-<launch>
-    <param name="use_sim_time" value="false"/>
-    <!-- 发布操作平台的消息【/joy】 -->
-    <node name="joy_node" pkg="agv_bringup" type="joy_node" output="screen" respawn="false"/>
-    <!-- 接收手柄发过来的消息并进行解析 --><!-- respawn 是否自动重起 -->
-    <node name="agv_joy_node" pkg="agv_bringup" type="agv_joy_node" output="screen" respawn="false"/>
-
-</launch>

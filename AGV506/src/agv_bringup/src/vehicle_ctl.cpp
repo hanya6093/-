@@ -8,7 +8,7 @@
 
 int main(int argc, char** argv) {
     // 初始化ROS节点
-    ros::init(argc, argv, "can_node");
+    ros::init(argc, argv, "vehicle_ctrl_node");
 
     can_ns::Can can;
     try{

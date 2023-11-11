@@ -1,6 +1,0 @@
-    <!-- 底层驱动节点 --> 
-    <!-- Low-level driver node -->
-    <node pkg="agv_bringup" type="driver_node" name="driver_node" required="true" output="screen">
-        <param name="imu" value="/transbot/imu"/>
-        <param name="vel" value="/transbot/get_vel"/>
-    </node>
