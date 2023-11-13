@@ -1,0 +1,16 @@
+<!--
+    功能：发送整体车辆数据给远程监控平台，接收远程监控平台的数据：非底层控制数据
+    节点：
+        发送节点：整合整车信息，包括解析车载控制器发送的can数据，接收传感器数据，自主控制数据，通过该节点将数据发送给远程监控平台
+        激光雷达、imu、以及各种上位机控制的节点直接接收监控平台发送过来的数据
+-->
+<launch>
+    <!-- 发送节点 -->
+    <!-- 解析车载控制器数据，发送给远程监控平台 --> 
+    <node pkg="agv_bringup" type="vedata_analysis" name="vedata_node" required="true" output="screen">
+        <param name="imu" value="/transbot/imu"/>
+        <param name="vel" value="/transbot/get_vel"/>
+    <!-- 添加鱼眼相机功能包，获取鱼眼相机图形 -->
+    <include file="$(find fisheye_camera)/launch/fisheye_cam.launch" />
+</launch>
+

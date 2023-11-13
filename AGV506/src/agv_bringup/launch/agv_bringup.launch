@@ -15,7 +15,7 @@
     <!-- operating platform node -->
     <include file="$(find agv_bringup)/launch/vehicle_ctrl.launch"/>
     <!-- 2、与下位机的数据通信：CAN数据的解析和打包发送 -->
-    <include file="$(find agv_bringup)/launch/monitor_plat.launch"/>
+    <include file="$(find agv_bringup)/launch/monitor_platform.launch"/>
     <!-- 3、IMU数据处理：过滤和融合 -->
     <include file="$(find XXX)/launch/agv_imu.launch"/>
     <!-- 4、发布静态坐标系 -->

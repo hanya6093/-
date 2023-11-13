@@ -9,5 +9,5 @@
 <launch>
     <!-- <param name="use_sim_time" value="false"/> -->
     <!-- 接收手柄、方向盘发过来的消息并进行解析，通过ros节点发送数据给车载控制器 -->
-    <node name="vehicle_ctrl" pkg="agv_bringup" type="vehicle_ctrl_node" output="screen" respawn="false"/>
+    <node pkg="agv_bringup" name="vehicle_ctrl_node" type="vehicle_ctrl" output="screen" respawn="false"/>
 </launch>
